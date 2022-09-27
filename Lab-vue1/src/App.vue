@@ -1,15 +1,18 @@
+<template>
+  <div>
+   <NuevoComponente/>
+  </div>
+</template>
+
 <script setup>
+
 import HelloWorld from "./components/HelloWorld.vue";
 import TheWelcome from "./components/TheWelcome.vue";
 import NuevoComponenteVue from "./components/NuevoComponente.vue";
 import NuevoComponente from "./components/NuevoComponente.vue";
 </script>
 
-<template>
-  <div>
-   <NuevoComponente/>
-  </div>
-</template>
+
 
 <style scoped>
 header {
